@@ -10,8 +10,26 @@ src/gate_v1/      原始版（固定窗口，有 6 个已知缺陷）—— 只�
 improved/gate/    改进版（滑动窗口 + 单调时钟 + 有界内存 + 线程安全）
 tests/            两个实现的测试；v1 的缺陷用 xfail(strict) 钉住
 examples/demo.py  三种实现方式的实测数字对比
+tools/serve.py    把仓库渲染成只读浏览站点（可在线重跑测试）
 NOTES.md          缺陷清单、改法、为什么这么改
 ```
+
+## 在线浏览
+
+```bash
+.venv/bin/python tools/serve.py     # → http://0.0.0.0:8000
+```
+
+浏览器里能看：
+
+| 地址 | 内容 |
+|------|------|
+| `/` | 概览：文件树、代码行数、缺陷清单、当前测试状态 |
+| `/doc/README` `/doc/NOTES` | 渲染后的文档 |
+| `/src?p=...` | 任意源文件，带行号与语法高亮 |
+| `/tests` | 在线重跑 `pytest` / `--runxfail` / `demo.py`，输出实时流式返回 |
+
+只读站点，命令走白名单，路径过 `resolve()` + `relative_to()` 防穿越。
 
 ## 运行
 
