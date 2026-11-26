@@ -4,10 +4,10 @@
 
 ## 一键复现
 ```bash
-cd /home/user/gate/arena/DPB
-/home/user/gate/.venv/bin/python -m dpb.cli --config config/default.yaml \
+cd arena/DPB
+python -m dpb.cli --config config/default.yaml \
   --dpa ../DPA/outputs/seed_1_normal_correlated --out outputs/seed_1_normal_correlated_b3
-/home/user/gate/.venv/bin/python -m pytest -q
+python -m pytest -q
 ```
 `--variant b0|b1|b2|b3|b4` 切换预测器；`--no-causal` 跳过篡改未来真值的因果测试（批量时节省时间）。
 

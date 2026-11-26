@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PY = Path("/home/user/gate/.venv/bin/python")
+PY = Path(sys.executable)
 DPA_SCHEMA = ["meta.json", "truth/hooks_params.csv", "truth/chain_speed.csv", "truth/tip_truth.csv"]
 DPB_SCHEMA = ["sensor_stream.csv", "eval_only/track_map.csv", "predictions.csv", "robot_commands.json",
               "robot_log.csv", "eval_per_hook.csv", "eval_report.json"]

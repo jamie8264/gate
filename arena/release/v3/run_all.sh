@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Batch DPA+DPB reproduction for the scenario/seed matrix.
 set -euo pipefail
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-PY=/home/user/gate/.venv/bin/python
+ROOT="$(cd "$(dirname "$0")" && pwd)"  # self-contained snapshot
+PY="${PY:-python3}"  # 可用 PY=/path/to/python 覆盖
 DEV_SEEDS="${DEV_SEEDS:-1 2 3 4 5}"
 VAL_SEEDS="${VAL_SEEDS:-101 102 103 104 105}"
 HOLDOUT_SEEDS="${HOLDOUT_SEEDS:-}"

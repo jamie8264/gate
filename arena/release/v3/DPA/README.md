@@ -4,10 +4,10 @@ Python 3.10+，依赖 `numpy`、`PyYAML`（见 `requirements.txt`）。与 `../D
 
 ## 一键复现
 ```bash
-cd /home/user/gate/arena/DPA
-/home/user/gate/.venv/bin/python -m dpa.cli --config config/default.yaml --seed 1 \
+cd arena/DPA
+python -m dpa.cli --config config/default.yaml --seed 1 \
   --scenario normal --noise correlated --out outputs/seed_1_normal_correlated
-/home/user/gate/.venv/bin/python -m pytest -q
+python -m pytest -q
 ```
 
 ## 输出

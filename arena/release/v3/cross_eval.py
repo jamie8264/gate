@@ -10,8 +10,8 @@ from pathlib import Path
 
 from adapters import adapt_dpa
 
-ROOT = Path(__file__).resolve().parents[1]
-PY = Path("/home/user/gate/.venv/bin/python")
+ROOT = Path(__file__).resolve().parents[0]  # self-contained snapshot
+PY = Path(sys.executable)
 
 
 def main() -> None:
