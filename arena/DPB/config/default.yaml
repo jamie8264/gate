@@ -47,7 +47,7 @@ predictor:
   global_window_s: 3.0
   global_weight: 0.0
   global_accel_kappa: 0.5
-  use_attitude_decorrelation: false
+  use_attitude_decorrelation: true
   yaw_lever_mm: 95.0
   accel_window_s: 1.5
   accel_kappa: 0.0

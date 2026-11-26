@@ -24,8 +24,8 @@ def main() -> int:
     for tag, base, files in [
         ("DPA", ROOT / "DPA" / "outputs" / "seed_1_normal_correlated", DPA_SCHEMA),
         ("DPB", ROOT / "DPB" / "outputs" / "seed_1_normal_correlated", DPB_SCHEMA),
-        ("release/DPA", ROOT / "release" / "v2" / "DPA" / "outputs" / "seed_1_normal_correlated", DPA_SCHEMA),
-        ("release/DPB", ROOT / "release" / "v2" / "DPB" / "outputs" / "seed_1_normal_correlated", DPB_SCHEMA),
+        ("release/DPA", ROOT / "release" / "v3" / "DPA" / "outputs" / "seed_1_normal_correlated", DPA_SCHEMA),
+        ("release/DPB", ROOT / "release" / "v3" / "DPB" / "outputs" / "seed_1_normal_correlated", DPB_SCHEMA),
     ]:
         missing = check_files(base, files)
         checks.append((f"{tag}: {len(files)-len(missing)}/{len(files)} schema files", not missing, missing))

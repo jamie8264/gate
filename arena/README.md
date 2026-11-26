@@ -7,7 +7,7 @@
 - `DPB/`：DP3000 传感器仿真 → 因果门控 → 预测 → 机械臂 → 独立评估（独立项目）
 - `tools/`：批量复现、聚合、适配层、交叉评测、交付校验
 - `runs/iter_XX/`：每轮量化假设 → 改动 → 指标 → 结论
-- `release/v1`：通过测试的快照（含代码、配置、夹具、RELEASE_NOTES）
+- `release/v1`、`release/v2`、`release/v3`：通过测试的历史快照；**当前最佳 `release/v3`**（yaw 几何去相关）
 
 ## 复现
 ```bash
@@ -15,7 +15,7 @@ cd /home/user/gate/arena
 bash tools/run_all.sh                 # 全矩阵（dev/val/holdout 由环境变量控制）
 python tools/validate_release.py      # 交付校验（需 .venv）
 ```
-细节与当前最佳指标见总纲 §14 头部与 `tools/aggregate_report.md`。
+细节与当前最佳指标见总纲 §14 头部与 `tools/aggregate_report_final.md`（60 例，val normal SR=0.8333，holdout SR=0.8738）。
 `validate_release.py` 使用 `/home/user/gate/.venv/bin/python`；若环境不同请改该脚本常量。
 
 ## 隔离承诺
