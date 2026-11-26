@@ -1,0 +1,15 @@
+{
+  "first_pred_diff": null,
+  "first_cmd_diff": null,
+  "cut_s": 100.0,
+  "n_tampered_truth_rows": 68623,
+  "n_early_predictions": 16,
+  "n_early_commands": 16,
+  "early_predictions_identical": true,
+  "early_commands_identical": true,
+  "static_isolation": {
+    "violations": [],
+    "passed": true
+  },
+  "passed": true
+}

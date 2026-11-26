@@ -1,0 +1,62 @@
+schema_version: schema_v1
+generator_version: dpa-1.0.0
+dt_s: 0.01
+chain_length_mm: 450000.0
+n_hooks: 700
+install_jitter_mm: 5.0
+hook:
+  length_mm: 100.0
+  length_tol_mm: 5.0
+  arc_radius_mm: 20.0
+  arc_radius_tol_mm: 2.0
+  tip_radius_mm: 5.0
+  tip_radius_tol_mm: 1.0
+  tip_ref: apex            # apex | center
+  arc_plane: vertical      # vertical | horizontal
+  sigma_mode: 3sigma       # tol/3
+  distribution: truncated_normal
+speed:
+  v0_mm_s: 50.0
+  v_min_mm_s: 20.0
+  v_max_mm_s: 80.0
+  ou_tau_s: 60.0
+  ou_sigma_mm_s: 10.0
+  normal_tol_mm_s: 5.0
+  noise_sigma_mode: 3sigma
+  event:
+    lambda_per_s: 0.0083333333333
+    amp_min_mm_s: 15.0
+    amp_max_mm_s: 35.0
+    ramp_min_s: 0.5
+    ramp_max_s: 2.0
+    settle_s: 2.0
+    event_tol_mm_s: 12.0
+disturbance:
+  angle_tol_deg: 5.0
+  angle_sigma_mode: 3sigma
+  ry_sigma_deg: 0.2
+  root_y_sigma_mm: 1.5
+  tau_s: 1.2
+  tau_jitter_ratio: 0.25
+  common_mode_ratio: 0.0
+sensor:
+  fov_x_mm: [-700.0, 100.0]
+  robot_x_mm: 0.0
+  export_margin_mm: 600.0
+zone:
+  n_passing_hooks: 34
+  tail_s: 25.0
+svg:
+  n_hooks: 4
+  fps: 25
+  window_s: 8.0
+  angle_amplify: 3.0
+  trail_points: 60
+scenarios:
+  normal:      {v0_mm_s: 50.0, event_lambda_scale: 1.0, noise_scale: 1.0}
+  event_heavy: {v0_mm_s: 50.0, event_lambda_scale: 4.0, noise_scale: 1.0}
+  fast:        {v0_mm_s: 78.0, event_lambda_scale: 1.0, noise_scale: 1.0}
+  slow:        {v0_mm_s: 22.0, event_lambda_scale: 1.0, noise_scale: 1.0}
+  noise_x2:    {v0_mm_s: 50.0, event_lambda_scale: 1.0, noise_scale: 2.0}
+  sensor_hard: {v0_mm_s: 50.0, event_lambda_scale: 1.0, noise_scale: 1.0}
+  angle_sigma5: {v0_mm_s: 50.0, event_lambda_scale: 1.0, noise_scale: 1.0, angle_tol_deg: 15.0}

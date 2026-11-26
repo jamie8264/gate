@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+<rect width="800" height="420" fill="#0d1117"/>
+<text x="20" y="30" fill="#e6edf3" font-family="sans-serif" font-size="16">DPA 静态预览 · 俯视 XY / 侧视 YZ</text>
+<rect x="20" y="45" width="450" height="340" fill="#111827" stroke="#334155"/>
+<rect x="485" y="45" width="295" height="340" fill="#111827" stroke="#334155"/>
+<circle cx="474.3" cy="169.1" r="6" fill="#58a6ff"/>
+<polyline points="474.3,169.1 514.3,119.1 549.3,121.1" fill="none" stroke="#58a6ff" stroke-width="2"/>
+<text x="500" y="90" fill="#58a6ff" font-family="monospace">hook 0: x=126.63 y=95.46 z=39.28 rz=1.88</text>
+<circle cx="164.9" cy="173.1" r="6" fill="#f778ba"/>
+<polyline points="164.9,173.1 204.9,123.1 239.9,125.1" fill="none" stroke="#f778ba" stroke-width="2"/>
+<text x="500" y="140" fill="#f778ba" font-family="monospace">hook 699: x=-448.99 y=93.46 z=34.69 rz=2.14</text>
+<circle cx="-51.9" cy="170.6" r="6" fill="#7ee787"/>
+<polyline points="-51.9,170.6 -11.9,120.6 23.1,122.6" fill="none" stroke="#7ee787" stroke-width="2"/>
+<text x="500" y="190" fill="#7ee787" font-family="monospace">hook 698: x=-852.44 y=94.72 z=40.14 rz=1.66</text>
+<circle cx="-50.9" cy="174.0" r="6" fill="#ffd166"/>
+<polyline points="-50.9,174.0 -10.9,124.0 24.1,126.0" fill="none" stroke="#ffd166" stroke-width="2"/>
+<text x="500" y="240" fill="#ffd166" font-family="monospace">hook 697: x=-850.53 y=93.02 z=43.66 rz=0.34</text>
+</svg>

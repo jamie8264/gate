@@ -1,0 +1,27 @@
+{
+  "sensor": {
+    "n_frames": 61809,
+    "n_tracks": 45,
+    "dpa_config_hash": "72151cf67bdf",
+    "dpa_seed": 1,
+    "dpa_scenario": "normal",
+    "dpa_noise": "correlated"
+  },
+  "pipeline": {
+    "n_tracks": 41,
+    "n_commands": 81,
+    "n_predictions": 81,
+    "n_moves": 81,
+    "n_cancelled": 0,
+    "t_end_s": 501.718312,
+    "dt_s": 0.05,
+    "predictor_variant": "b3",
+    "config_hash": "fe7dcd96a32c",
+    "schema_version": "schema_v1"
+  },
+  "sr_main": 0.48717948717948717,
+  "score": 39.5842227551272,
+  "causal": {
+    "skipped": true
+  }
+}

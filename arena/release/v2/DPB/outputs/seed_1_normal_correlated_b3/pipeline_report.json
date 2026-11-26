@@ -1,0 +1,12 @@
+{
+  "n_tracks": 41,
+  "n_commands": 40,
+  "n_predictions": 40,
+  "n_moves": 40,
+  "n_cancelled": 0,
+  "t_end_s": 501.713761,
+  "dt_s": 0.05,
+  "predictor_variant": "b3",
+  "config_hash": "8ef3820d670c",
+  "schema_version": "schema_v1"
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "schema_v1",
+  "generator_version": "dpa-1.0.0",
+  "seed": 1,
+  "scenario": "normal",
+  "noise_mode": "correlated",
+  "config_hash": "e573064647d3",
+  "frame_definition": {
+    "tip_ref": "apex",
+    "arc_plane": "vertical",
+    "euler_order": "ZYX",
+    "angle_sigma_mode": "3sigma",
+    "angle_tol_deg": 5.0
+  },
+  "dt_s": 0.01,
+  "n_hooks": 700,
+  "n_hooks_simulated": 54,
+  "mode": "zone",
+  "duration_s": 500.71000000000004,
+  "chain_length_mm": 450000.0,
+  "sensor_fov_x_mm": [
+    -700.0,
+    100.0
+  ],
+  "robot_x_mm": 0.0,
+  "units": {
+    "position": "mm",
+    "angle": "deg",
+    "time": "s",
+    "speed": "mm/s"
+  },
+  "hook": {
+    "length_mm": 100.0,
+    "tip_radius_mm": 5.0,
+    "arc_radius_mm": 20.0
+  },
+  "speed": {
+    "ou_sigma_mm_s": 10.0,
+    "ou_tau_s": 60.0,
+    "v_min_mm_s": 20.0,
+    "v_max_mm_s": 80.0
+  },
+  "disturbance": {
+    "angle_tol_deg": 5.0,
+    "ry_sigma_deg": 0.2,
+    "root_y_sigma_mm": 1.5,
+    "tau_s": 1.2
+  }
+}

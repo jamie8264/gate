@@ -1,0 +1,722 @@
+[
+  {
+    "command_id": "C00001",
+    "track_id": "T0001",
+    "issue_time": 0.85,
+    "target_time": 3.35,
+    "target_pose": [
+      167.477386,
+      93.770156,
+      41.530452,
+      0.580293,
+      -0.069993,
+      -1.249921
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 301.939483,
+    "estimated_travel_time": 1.509697,
+    "sequence": 1
+  },
+  {
+    "command_id": "C00002",
+    "track_id": "T0002",
+    "issue_time": 10.4,
+    "target_time": 12.6,
+    "target_pose": [
+      -51.614085,
+      94.865306,
+      38.093183,
+      -0.385097,
+      0.168358,
+      -0.251188
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 219.121169,
+    "estimated_travel_time": 1.095606,
+    "sequence": 2
+  },
+  {
+    "command_id": "C00003",
+    "track_id": "T0003",
+    "issue_time": 25.2,
+    "target_time": 27.4,
+    "target_pose": [
+      -55.264881,
+      96.605399,
+      38.958441,
+      -0.662991,
+      -0.017049,
+      0.472925
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 4.135808,
+    "estimated_travel_time": 0.020679,
+    "sequence": 3
+  },
+  {
+    "command_id": "C00004",
+    "track_id": "T0004",
+    "issue_time": 43.55,
+    "target_time": 45.75,
+    "target_pose": [
+      -51.113327,
+      89.329093,
+      44.872525,
+      2.354958,
+      -0.020513,
+      0.231482
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 10.25458,
+    "estimated_travel_time": 0.051273,
+    "sequence": 4
+  },
+  {
+    "command_id": "C00005",
+    "track_id": "T0005",
+    "issue_time": 56.4,
+    "target_time": 58.6,
+    "target_pose": [
+      -37.292468,
+      94.291042,
+      37.265238,
+      -0.935623,
+      -0.086829,
+      -0.810718
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 16.538074,
+    "estimated_travel_time": 0.08269,
+    "sequence": 5
+  },
+  {
+    "command_id": "C00006",
+    "track_id": "T0006",
+    "issue_time": 68.75,
+    "target_time": 70.95,
+    "target_pose": [
+      -41.114186,
+      93.594206,
+      43.639497,
+      1.133232,
+      -0.136283,
+      0.427667
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 7.464737,
+    "estimated_travel_time": 0.037324,
+    "sequence": 6
+  },
+  {
+    "command_id": "C00007",
+    "track_id": "T0007",
+    "issue_time": 80.4,
+    "target_time": 82.6,
+    "target_pose": [
+      -1.431439,
+      91.217638,
+      39.691495,
+      0.243608,
+      0.112776,
+      0.644664
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 39.949408,
+    "estimated_travel_time": 0.199747,
+    "sequence": 7
+  },
+  {
+    "command_id": "C00008",
+    "track_id": "T0008",
+    "issue_time": 91.05,
+    "target_time": 93.25,
+    "target_pose": [
+      -8.866195,
+      97.100074,
+      41.842853,
+      -0.056398,
+      0.047143,
+      1.291229
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 9.721471,
+    "estimated_travel_time": 0.048607,
+    "sequence": 8
+  },
+  {
+    "command_id": "C00009",
+    "track_id": "T0009",
+    "issue_time": 101.2,
+    "target_time": 103.4,
+    "target_pose": [
+      -15.011388,
+      96.757679,
+      43.784104,
+      1.182342,
+      -0.033886,
+      -0.309095
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 6.45361,
+    "estimated_travel_time": 0.032268,
+    "sequence": 9
+  },
+  {
+    "command_id": "C00010",
+    "track_id": "T0010",
+    "issue_time": 112.0,
+    "target_time": 114.2,
+    "target_pose": [
+      -34.56861,
+      94.827153,
+      41.131512,
+      0.987893,
+      -0.081844,
+      -0.551958
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 19.830485,
+    "estimated_travel_time": 0.099152,
+    "sequence": 10
+  },
+  {
+    "command_id": "C00011",
+    "track_id": "T0011",
+    "issue_time": 123.0,
+    "target_time": 125.2,
+    "target_pose": [
+      -17.685376,
+      91.267244,
+      40.971631,
+      -0.488692,
+      0.084354,
+      -1.108531
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 17.255205,
+    "estimated_travel_time": 0.086276,
+    "sequence": 11
+  },
+  {
+    "command_id": "C00012",
+    "track_id": "T0012",
+    "issue_time": 134.15,
+    "target_time": 136.35,
+    "target_pose": [
+      -29.688021,
+      92.446696,
+      41.210817,
+      -0.036734,
+      0.096624,
+      -0.070252
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 12.062828,
+    "estimated_travel_time": 0.060314,
+    "sequence": 12
+  },
+  {
+    "command_id": "C00013",
+    "track_id": "T0014",
+    "issue_time": 145.7,
+    "target_time": 147.9,
+    "target_pose": [
+      -13.696167,
+      94.609425,
+      38.785598,
+      -1.478761,
+      -0.011919,
+      -0.633092
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 16.318655,
+    "estimated_travel_time": 0.081593,
+    "sequence": 13
+  },
+  {
+    "command_id": "C00014",
+    "track_id": "T0015",
+    "issue_time": 155.9,
+    "target_time": 158.1,
+    "target_pose": [
+      -22.990868,
+      92.738828,
+      40.140801,
+      0.32479,
+      -0.075067,
+      -0.945526
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 9.57743,
+    "estimated_travel_time": 0.047887,
+    "sequence": 14
+  },
+  {
+    "command_id": "C00015",
+    "track_id": "T0016",
+    "issue_time": 167.05,
+    "target_time": 169.25,
+    "target_pose": [
+      -13.729342,
+      95.353404,
+      41.184528,
+      0.477462,
+      0.080126,
+      0.112008
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 9.679939,
+    "estimated_travel_time": 0.0484,
+    "sequence": 15
+  },
+  {
+    "command_id": "C00016",
+    "track_id": "T0017",
+    "issue_time": 178.3,
+    "target_time": 180.5,
+    "target_pose": [
+      -29.551897,
+      98.816367,
+      37.779337,
+      -0.505422,
+      0.029331,
+      -0.423524
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 16.551153,
+    "estimated_travel_time": 0.082756,
+    "sequence": 16
+  },
+  {
+    "command_id": "C00017",
+    "track_id": "T0018",
+    "issue_time": 188.75,
+    "target_time": 190.95,
+    "target_pose": [
+      2.716374,
+      97.528981,
+      40.40468,
+      0.050168,
+      -0.089555,
+      1.481768
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 32.40048,
+    "estimated_travel_time": 0.162002,
+    "sequence": 17
+  },
+  {
+    "command_id": "C00018",
+    "track_id": "T0019",
+    "issue_time": 199.25,
+    "target_time": 201.45,
+    "target_pose": [
+      -29.002803,
+      95.696957,
+      37.283733,
+      -1.824248,
+      0.04379,
+      1.389524
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 31.924956,
+    "estimated_travel_time": 0.159625,
+    "sequence": 18
+  },
+  {
+    "command_id": "C00019",
+    "track_id": "T0020",
+    "issue_time": 211.35,
+    "target_time": 213.55,
+    "target_pose": [
+      -34.283862,
+      91.176947,
+      41.860529,
+      1.193672,
+      0.064249,
+      0.161758
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 8.322688,
+    "estimated_travel_time": 0.041613,
+    "sequence": 19
+  },
+  {
+    "command_id": "C00020",
+    "track_id": "T0021",
+    "issue_time": 224.6,
+    "target_time": 226.8,
+    "target_pose": [
+      -31.780369,
+      94.035799,
+      39.586566,
+      -0.560879,
+      -0.01126,
+      0.164086
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 4.428478,
+    "estimated_travel_time": 0.022142,
+    "sequence": 20
+  },
+  {
+    "command_id": "C00021",
+    "track_id": "T0022",
+    "issue_time": 237.35,
+    "target_time": 239.55,
+    "target_pose": [
+      -34.111924,
+      96.402113,
+      37.785955,
+      -0.640749,
+      -0.008703,
+      -1.271368
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 3.778596,
+    "estimated_travel_time": 0.018893,
+    "sequence": 21
+  },
+  {
+    "command_id": "C00022",
+    "track_id": "T0023",
+    "issue_time": 249.35,
+    "target_time": 251.55,
+    "target_pose": [
+      -26.070348,
+      95.815561,
+      38.203429,
+      -0.521206,
+      -0.006246,
+      -0.938645
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 8.07374,
+    "estimated_travel_time": 0.040369,
+    "sequence": 22
+  },
+  {
+    "command_id": "C00023",
+    "track_id": "T0024",
+    "issue_time": 260.65,
+    "target_time": 262.85,
+    "target_pose": [
+      -29.384035,
+      97.282771,
+      39.783359,
+      -0.600073,
+      0.029425,
+      -0.357241
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 3.953404,
+    "estimated_travel_time": 0.019767,
+    "sequence": 23
+  },
+  {
+    "command_id": "C00024",
+    "track_id": "T0025",
+    "issue_time": 274.1,
+    "target_time": 276.3,
+    "target_pose": [
+      -43.987465,
+      93.635471,
+      40.487434,
+      0.350815,
+      -0.053244,
+      -0.887534
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 15.068467,
+    "estimated_travel_time": 0.075342,
+    "sequence": 24
+  },
+  {
+    "command_id": "C00025",
+    "track_id": "T0026",
+    "issue_time": 285.4,
+    "target_time": 287.6,
+    "target_pose": [
+      -12.488469,
+      96.110335,
+      35.545181,
+      -0.991685,
+      -0.121932,
+      0.053598
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 31.980269,
+    "estimated_travel_time": 0.159901,
+    "sequence": 25
+  },
+  {
+    "command_id": "C00026",
+    "track_id": "T0027",
+    "issue_time": 296.3,
+    "target_time": 298.5,
+    "target_pose": [
+      -26.03036,
+      95.330049,
+      39.66873,
+      -0.103867,
+      -0.118295,
+      -0.575696
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 14.177282,
+    "estimated_travel_time": 0.070886,
+    "sequence": 26
+  },
+  {
+    "command_id": "C00027",
+    "track_id": "T0028",
+    "issue_time": 308.45,
+    "target_time": 310.65,
+    "target_pose": [
+      -39.079741,
+      96.093955,
+      38.382922,
+      -0.097862,
+      -0.101136,
+      0.53703
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 13.134809,
+    "estimated_travel_time": 0.065674,
+    "sequence": 27
+  },
+  {
+    "command_id": "C00028",
+    "track_id": "T0029",
+    "issue_time": 322.15,
+    "target_time": 324.35,
+    "target_pose": [
+      -45.955923,
+      94.5997,
+      40.159449,
+      0.208582,
+      -0.000627,
+      1.756198
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 7.25746,
+    "estimated_travel_time": 0.036287,
+    "sequence": 28
+  },
+  {
+    "command_id": "C00029",
+    "track_id": "T0030",
+    "issue_time": 333.95,
+    "target_time": 336.15,
+    "target_pose": [
+      -26.371762,
+      96.939173,
+      40.478484,
+      -0.289267,
+      -0.169999,
+      -0.441268
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 19.72598,
+    "estimated_travel_time": 0.09863,
+    "sequence": 29
+  },
+  {
+    "command_id": "C00030",
+    "track_id": "T0031",
+    "issue_time": 345.45,
+    "target_time": 347.65,
+    "target_pose": [
+      -18.584183,
+      94.484372,
+      40.501419,
+      -1.457789,
+      -0.087006,
+      0.311081
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 8.165352,
+    "estimated_travel_time": 0.040827,
+    "sequence": 30
+  },
+  {
+    "command_id": "C00031",
+    "track_id": "T0032",
+    "issue_time": 356.45,
+    "target_time": 358.65,
+    "target_pose": [
+      -36.637407,
+      96.342153,
+      42.114849,
+      1.512502,
+      -0.050471,
+      -0.066841
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 18.220138,
+    "estimated_travel_time": 0.091101,
+    "sequence": 31
+  },
+  {
+    "command_id": "C00032",
+    "track_id": "T0033",
+    "issue_time": 369.75,
+    "target_time": 371.95,
+    "target_pose": [
+      -58.507679,
+      91.020778,
+      41.38307,
+      0.279684,
+      -0.081295,
+      -1.217362
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 22.520243,
+    "estimated_travel_time": 0.112601,
+    "sequence": 32
+  },
+  {
+    "command_id": "C00033",
+    "track_id": "T0034",
+    "issue_time": 382.6,
+    "target_time": 384.8,
+    "target_pose": [
+      -37.768153,
+      98.305099,
+      41.13686,
+      -0.277358,
+      -0.132649,
+      0.623755
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 21.982946,
+    "estimated_travel_time": 0.109915,
+    "sequence": 33
+  },
+  {
+    "command_id": "C00034",
+    "track_id": "T0037",
+    "issue_time": 395.2,
+    "target_time": 397.4,
+    "target_pose": [
+      -38.444063,
+      98.022558,
+      40.418529,
+      -0.522997,
+      -0.00993,
+      -0.193136
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 1.026004,
+    "estimated_travel_time": 0.00513,
+    "sequence": 34
+  },
+  {
+    "command_id": "C00035",
+    "track_id": "T0036",
+    "issue_time": 409.4,
+    "target_time": 411.6,
+    "target_pose": [
+      -51.646638,
+      96.322159,
+      37.98837,
+      -1.329052,
+      0.056797,
+      -0.042346
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 13.53163,
+    "estimated_travel_time": 0.067658,
+    "sequence": 35
+  },
+  {
+    "command_id": "C00036",
+    "track_id": "T0038",
+    "issue_time": 423.5,
+    "target_time": 425.7,
+    "target_pose": [
+      -51.447006,
+      94.690173,
+      39.906225,
+      -0.263273,
+      -0.006007,
+      1.050056
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 2.526143,
+    "estimated_travel_time": 0.012631,
+    "sequence": 36
+  },
+  {
+    "command_id": "C00037",
+    "track_id": "T0041",
+    "issue_time": 437.55,
+    "target_time": 439.75,
+    "target_pose": [
+      -43.981576,
+      95.893094,
+      41.85947,
+      -0.155947,
+      0.145308,
+      0.389639
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 7.809919,
+    "estimated_travel_time": 0.03905,
+    "sequence": 37
+  },
+  {
+    "command_id": "C00038",
+    "track_id": "T0040",
+    "issue_time": 453.5,
+    "target_time": 455.7,
+    "target_pose": [
+      -85.795471,
+      95.034023,
+      41.316727,
+      0.467933,
+      -0.062634,
+      0.045601
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 41.826241,
+    "estimated_travel_time": 0.209131,
+    "sequence": 38
+  },
+  {
+    "command_id": "C00039",
+    "track_id": "T0042",
+    "issue_time": 472.75,
+    "target_time": 474.95,
+    "target_pose": [
+      -77.109449,
+      93.616886,
+      38.355562,
+      0.263345,
+      0.029939,
+      -0.758191
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 9.285675,
+    "estimated_travel_time": 0.046428,
+    "sequence": 39
+  },
+  {
+    "command_id": "C00040",
+    "track_id": "T0043",
+    "issue_time": 488.8,
+    "target_time": 491.0,
+    "target_pose": [
+      -60.178053,
+      94.689028,
+      40.309959,
+      -0.309906,
+      -0.080467,
+      -0.946214
+    ],
+    "communication_delay": 0.5,
+    "move_distance": 17.077509,
+    "estimated_travel_time": 0.085388,
+    "sequence": 40
+  }
+]
