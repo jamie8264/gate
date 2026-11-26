@@ -7,7 +7,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[0]  # self-contained snapshot
 PY = Path("/home/user/gate/.venv/bin/python")
 DPA_SCHEMA = ["meta.json", "truth/hooks_params.csv", "truth/chain_speed.csv", "truth/tip_truth.csv"]
 DPB_SCHEMA = ["sensor_stream.csv", "eval_only/track_map.csv", "predictions.csv", "robot_commands.json",
@@ -24,8 +24,8 @@ def main() -> int:
     for tag, base, files in [
         ("DPA", ROOT / "DPA" / "outputs" / "seed_1_normal_correlated", DPA_SCHEMA),
         ("DPB", ROOT / "DPB" / "outputs" / "seed_1_normal_correlated", DPB_SCHEMA),
-        ("release/DPA", ROOT / "release" / "v3" / "DPA" / "outputs" / "seed_1_normal_correlated", DPA_SCHEMA),
-        ("release/DPB", ROOT / "release" / "v3" / "DPB" / "outputs" / "seed_1_normal_correlated", DPB_SCHEMA),
+        ("release/DPA", ROOT / "DPA" / "outputs" / "seed_1_normal_correlated", DPA_SCHEMA),
+        ("release/DPB", ROOT / "DPB" / "outputs" / "seed_1_normal_correlated", DPB_SCHEMA),
     ]:
         missing = check_files(base, files)
         checks.append((f"{tag}: {len(files)-len(missing)}/{len(files)} schema files", not missing, missing))
